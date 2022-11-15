@@ -1,0 +1,16 @@
+#canvas1{
+    position: absolute; /*será posicionado a partir do canto esquerdo superior do documento, podendo até mesmo sobrepor a eles*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*This transformation is characterized by a two-dimensional vector. Its coordinates define how much the element moves in each direction.*/
+    width: 600px;
+    height: 600px;
+}
+
+.controls{
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%); /*centraliza*/
+}
